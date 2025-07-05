@@ -1,9 +1,9 @@
 # hackathon_empregadados
 Projeto Pipeline de Dados em Python e Dashboards no Power BI
 
-O  projeto consiste em extrair os dados de 2 documentos na cloud do cliente, sendo um no Microsoft Sharepoit e o outro no Google Docs.
+O  projeto consiste em extrair os dados financeiros e de vendas de duas empresas (ALUCAR e CONSIGCAR), que são alimentadas periodicamente em 2 documentos mantidos na cloud do cliente, sendo uma planilha salvo no Microsoft Sharepoit e o outra planilha no Google Docs.
 
-Toda a ETL é executada pelo script /scripts/Injestao_Dados.py, que persiste os dados em arquvos parquet num Blob Azure.
+Toda a ETL é executada pelo script ../scripts/Injestao_Dados.py, que persiste as tabelas transformadas em arquvos parquet num Blob Azure.
 
 O arquivo Relatorios_01_v6.pbix nativo do Microsoft Power BI contém: 
 - As tabelas vinculadas aos arquivos de dados parquet, armazenados no Blob Azures;
@@ -12,5 +12,20 @@ O arquivo Relatorios_01_v6.pbix nativo do Microsoft Power BI contém:
 - 5 Dasheboards gerenciais.
 
 - ## VISÃO GERAL
+Apresenta graficamente a situação financeira do ano até a data de atual: 
+- O total das receitas mensais das duas empresas.
+- O total das despesas mensais das duas empresas.
+- O fluxo de caixa por empresa.
+- O Fluxo de caixa consolidado do grupo
+- ![Visão Geral](https://github.com/rseixaslopes/hackathon_empregadados/blob/main/images/VisaiGeral.jpg)
 
-- ![Visão Geral] 
+<b>Também é possível filtrar determinados meses para detalhar os dados por semana, fazendo o drown drill nos gráficos.</b>
+![Visão Geral Semanal](https://github.com/rseixaslopes/hackathon_empregadados/blob/main/images/VisaiGeralSemanal.jpg)
+
+## FORECAST
+Esse dashboard representa:
+- As receitas estimadas.
+- As despesas estimadas.
+- O fluxo de caixa projetado, onde juntamos os dados realizados e estimados no mesmo gráfico, representando os resultados esperados no ano.
+- O fluxo de caixa projetado do grupo
+![FORECAST](https://github.com/rseixaslopes/hackathon_empregadados/blob/main/images/Forecast.jpg)
