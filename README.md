@@ -29,3 +29,12 @@ Esse dashboard representa:
 - O fluxo de caixa projetado, onde juntamos os dados realizados e estimados no mesmo gráfico, representando os resultados esperados no ano.
 - O fluxo de caixa projetado do grupo
 ![FORECAST](https://github.com/rseixaslopes/hackathon_empregadados/blob/main/images/Forecast.jpg)
+
+## PRL
+Esse dashboard auxilia o gestor de ventas acompanhar as metas definidas para cada empresa e o resultado das equipes.
+- Velocímetro de desempenho para cada empresa, até a data atual, representando o total de vendas, a primeira linha é a meta 1 e o final a meta 2 do mês corrente.
+- Últimos 4 meses de vendas por vendedor.
+- Vendas acumiladas por mês e as linhas referentes a meta 1 e a meta 2, para acompanhar a evolução e resultado das equipes
+- TOP 5 dos melhores vendedores do mês atual
+- Tabela das metas definidas, acumuladas mensalmente, para cada empresa.
+![PLR](https://github.com/rseixaslopes/hackathon_empregadados/blob/main/images/PLR.jpg)
