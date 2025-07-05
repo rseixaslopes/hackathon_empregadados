@@ -18,10 +18,11 @@ Apresenta graficamente a situação financeira do ano até a data de atual:
 - O total das despesas mensais das duas empresas.
 - O fluxo de caixa por empresa.
 - O Fluxo de caixa consolidado do grupo
-- ![Visão Geral](https://github.com/rseixaslopes/hackathon_empregadados/blob/main/images/VisaiGeral.jpg)
+![Visão Geral](https://github.com/rseixaslopes/hackathon_empregadados/blob/main/images/VisaiGeral.jpg)
 
 <b>Também é possível filtrar determinados meses para detalhar os dados por semana, fazendo o drown drill nos gráficos.</b>
-![Visão Geral Semanal](https://github.com/rseixaslopes/hackathon_empregadados/blob/main/images/VisaiGeralSemanal.jpg)
+>![Visão Geral Semanal](https://github.com/rseixaslopes/hackathon_empregadados/blob/main/images/VisaiGeralSemanal.jpg)
+
 
 ## FORECAST
 Esse dashboard representa:
@@ -31,7 +32,7 @@ Esse dashboard representa:
 - O fluxo de caixa projetado do grupo
 ![FORECAST](https://github.com/rseixaslopes/hackathon_empregadados/blob/main/images/Forecast.jpg)
 
-## PRL
+## PLR
 Esse dashboard auxilia o gestor de ventas acompanhar as metas definidas para cada empresa e o resultado das equipes.
 - Velocímetro de desempenho para cada empresa, até a data atual, representando o total de vendas, a primeira linha é a meta 1 e o final a meta 2 do mês corrente.
 - Últimos 4 meses de vendas por vendedor.
